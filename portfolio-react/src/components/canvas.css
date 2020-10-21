@@ -1,0 +1,28 @@
+:root {
+  --gradient: linear-gradient(
+    90deg,
+    orangered,
+    darkorange,
+    orange,
+    darkorange,
+    orangered
+  );
+}
+body {
+  background-color: black;
+  overflow: hidden;
+}
+.tsparticles {
+  height: 400px;
+}
+#Particles {
+  height: 400px;
+}
+
+.canvas-body {
+  background-image: var(--gradient);
+  height: 400px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding-bottom: 100px;
+}
