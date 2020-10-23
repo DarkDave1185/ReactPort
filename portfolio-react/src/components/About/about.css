@@ -4,22 +4,104 @@ information {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
-    ". box3 ."
-    ". box3 ."
+    "box1 box3 ."
+    "box1 box3 ."
     ". box3 .";
   margin-top: -700px;
 }
 
 .kard-box1 {
   grid-area: box1;
-  background: rgb(95, 158, 160, 0.7);
+  position: relative;
+  width: calc(300px - 30px);
+  height: calc(350px - 30px);
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 15px;
 }
+.kard-box1 .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: brown;
+  transition: 0.5s;
+  z-index: 1;
+}
+.kard-box1:hover .icon {
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.kard-box1:nth-child(1) .icon {
+  background: linear-gradient(black, orangered, black);
+}
+.kard-box1:nth-child(1) {
+  background: rgb(0, 0, 0, 0.2);
+}
+.kard-box1 .icon .gcap {
+  position: absolute;
+  top: 25%;
+  left: 17%;
+  transform: translateY(-50%, -50%);
+  font-size: 120px;
+  transition: 0.5s;
+  color: #f2f2f2;
+}
+.kard-box1:hover .icon .gcap {
+  font-size: 40px;
+}
+.kard-box1 .info {
+  position: absolute;
+  top: 100%;
+  height: calc(100% - 100px);
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  opacity: 0;
+}
+.kard-box1:hover .info {
+  top: 100px;
+  opacity: 1;
+}
+.kard-box1 .info h5 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: #f2f2f2;
+  font-size: 24px;
+}
+.kard-box1 .info p {
+  margin: 0;
+  padding: 0;
+  color: #f2f2f2;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "list1"
+    "list2";
+}
+
+.list1 {
+  grid-area: list1;
+}
+.list2 {
+  grid-area: list2;
+}
+
 .kard-box2 {
   grid-area: box2;
-  background: rgb(95, 158, 160, 0.7);
 }
 .about-box3 {
   grid-area: box3;
-  background: rgb(95, 158, 160);
+  background: rgb(95, 158, 160, 0.4);
   color: #f2f2f2;
 }

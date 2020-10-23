@@ -10,9 +10,18 @@ import {
   faEnvelopeOpenText,
   faToriiGate,
   faMobileAlt,
+  faCompass,
+  faChalkboardTeacher,
 } from "@fortawesome/free-solid-svg-icons";
 /*ADD SOLID SVG ICONS TO LIBRARY*/
-library.add(fab, faEnvelopeOpenText, faToriiGate, faMobileAlt);
+library.add(
+  fab,
+  faEnvelopeOpenText,
+  faToriiGate,
+  faMobileAlt,
+  faCompass,
+  faChalkboardTeacher
+);
 ReactDOM.render(
   <React.StrictMode>
     <App />
