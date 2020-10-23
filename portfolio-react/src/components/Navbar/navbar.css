@@ -9,3 +9,8 @@
 .bg-light {
   background-color: black !important;
 }
+
+.navbar .navbar-brand span {
+  color: orangered;
+  font-size: 16px;
+}

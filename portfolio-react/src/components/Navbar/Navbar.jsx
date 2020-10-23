@@ -3,10 +3,10 @@ import "./navbar.css";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+    <div className="navbar justify-content-center">
+      <nav class="navbar navbar-expand-lg navbar-light  sticky-top ">
         <a class="navbar-brand" href="/">
-          Navbar
+          D.<span>G</span>.<span>S</span>.D.
         </a>
         <button
           class="navbar-toggler"

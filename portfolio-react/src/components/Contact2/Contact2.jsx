@@ -32,22 +32,28 @@ function Contact2() {
           </ul>
           <ul className="media">
             <li>
-              <a href="#"></a>
-              <FontAwesomeIcon
-                icon={["fab", "github-square"]}
-                className="social"
-              />
+              <a href="https://github.com/DarkDave1185">
+                <FontAwesomeIcon
+                  icon={["fab", "github-square"]}
+                  className="social"
+                />
+              </a>
             </li>
             <li>
-              <a href="#"></a>
-              <FontAwesomeIcon icon={["fab", "linkedin"]} className="social" />
+              <a href="https://www.linkedin.com/in/david-dawkins-756385177/">
+                <FontAwesomeIcon
+                  icon={["fab", "linkedin"]}
+                  className="social"
+                />
+              </a>
             </li>
             <li>
-              <a href="#"></a>
-              <FontAwesomeIcon
-                icon={["fab", "instagram-square"]}
-                className="social"
-              />
+              <a href="https://www.instagram.com/darkdave1185/">
+                <FontAwesomeIcon
+                  icon={["fab", "instagram-square"]}
+                  className="social"
+                />
+              </a>
             </li>
           </ul>
         </div>

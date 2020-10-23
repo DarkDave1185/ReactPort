@@ -23,7 +23,7 @@
 
 .container .contact-info {
   position: absolute;
-  top: 40px;
+  top: 25px;
   width: 350px;
   height: calc(100% - 100px);
   background: rgb(0, 0, 0, 0.8);
@@ -64,6 +64,8 @@
   max-width: 100%;
   filter: invert(1);
   opacity: 0.5;
+  font-size: 25px;
+  color: #333;
 }
 
 .container .contact-info .inform li span:nth-child(2) {
@@ -73,9 +75,10 @@
   opacity: 0.4;
 }
 
-.container .contact-info .inform .icon li:hover span:nth-child(1),
+.container .contact-info .inform .icon li:hover span:nth-child(1) .icon,
 .container .contact-info .inform li:hover span:nth-child(2) {
   opacity: 1;
+  color: rgb(242, 242, 242, 0.8);
 }
 
 .container .contact-info .media {
@@ -95,10 +98,13 @@
 .container .contact-info .media li .social {
   filter: invert(1);
   opacity: 0.5;
+  font-size: 32px;
+  margin: 5px;
 }
 
 .container .contact-info .media li:hover .social {
   opacity: 1;
+  font-size: 40px;
 }
 
 .container .contact-form {
@@ -107,7 +113,7 @@
   background: rgb(255, 255, 255, 0.2);
   width: calc(100% - 150px);
   padding-left: 250px;
-  margin-top: 65px;
+  margin-top: 50px;
   margin-left: 150px;
   height: 400px;
   box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
