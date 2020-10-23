@@ -1,0 +1,25 @@
+information {
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    ". box3 ."
+    ". box3 ."
+    ". box3 .";
+  margin-top: -700px;
+}
+
+.kard-box1 {
+  grid-area: box1;
+  background: rgb(95, 158, 160, 0.7);
+}
+.kard-box2 {
+  grid-area: box2;
+  background: rgb(95, 158, 160, 0.7);
+}
+.about-box3 {
+  grid-area: box3;
+  background: rgb(95, 158, 160);
+  color: #f2f2f2;
+}
