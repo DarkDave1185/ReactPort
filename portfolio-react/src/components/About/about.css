@@ -5,11 +5,11 @@ information {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     "box1 box3 ."
-    "box1 box3 ."
-    ". box3 .";
+    "box1 box3 box2"
+    ". box3 box2";
   margin-top: -700px;
 }
-
+/*CARD ANIMATION STYLING*/
 .kard-box1 {
   grid-area: box1;
   position: relative;
@@ -39,7 +39,11 @@ information {
   border-radius: 50%;
 }
 .kard-box1:nth-child(1) .icon {
-  background: linear-gradient(black, orangered, black);
+  background: linear-gradient(
+    rgb(0, 0, 0, 0.7),
+    rgb(255, 69, 0, 0.5),
+    rgb(0, 0, 0, 0.7)
+  );
 }
 .kard-box1:nth-child(1) {
   background: rgb(0, 0, 0, 0.2);
@@ -66,6 +70,9 @@ information {
   transition: 0.5s;
   opacity: 0;
 }
+.kard-box1 .info li {
+  width: 50px;
+}
 .kard-box1:hover .info {
   top: 100px;
   opacity: 1;
@@ -81,19 +88,25 @@ information {
   padding: 0;
   color: #f2f2f2;
 }
-
+/*CARD INFORMATION GRID STYLE*/
 .info {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 15px;
   grid-template-areas:
-    "list1"
-    "list2";
+    "title title"
+    "list1 list2";
 }
-
+.title {
+  grid-area: title;
+}
 .list1 {
+  width: 120px;
   grid-area: list1;
 }
 .list2 {
+  width: 120px;
   grid-area: list2;
 }
 
@@ -102,6 +115,7 @@ information {
 }
 .about-box3 {
   grid-area: box3;
-  background: rgb(95, 158, 160, 0.4);
-  color: #f2f2f2;
+  background: rgba(38, 39, 39, 0.1);
+  color: black;
+  padding: 15px;
 }

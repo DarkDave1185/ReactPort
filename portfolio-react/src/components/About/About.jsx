@@ -11,19 +11,23 @@ function About() {
             <FontAwesomeIcon icon="chalkboard-teacher" className="gcap" />
           </div>
           <div className="info">
-            <ul>
-              <div className="list1">
-                <li>
-                  <span>Learning</span>
-                </li>
+            <h4 className="title">
+              <span>
+                Learn <span>x</span> Know
+              </span>
+            </h4>
+            <div className="list1">
+              <ul>
                 <li>tincidunt</li>
                 <li>aliquam</li>
                 <li>facilisi</li>
                 <li>fermentum</li>
                 <li>volutpat</li>
                 <li>semper</li>
-              </div>
-              <div className="list2">
+              </ul>
+            </div>
+            <div className="list2">
+              <ul>
                 <li>elementum</li>
                 <li>pellentesque</li>
                 <li>convallis</li>
@@ -31,11 +35,10 @@ function About() {
                 <li>rhoncus</li>
                 <li>rhoncus</li>
                 <li>rhoncus</li>
-              </div>
-            </ul>
+              </ul>
+            </div>
           </div>
         </div>
-        <div className="kard-box2"></div>
         <div className="about-box3">
           <h3>David G.S. Dawkins</h3>
           <h5>FullStack Web Developer</h5>
@@ -53,8 +56,11 @@ function About() {
             fames. Amet nisl suscipit adipiscing bibendum est ultricies.
           </p>
         </div>
-        <div className="about-box4"></div>
-        <div className="about-box5"></div>
+        <div className="kard-box2">
+          <div className="icon">
+            <FontAwesomeIcon icon="chalkboard-teacher" className="gcap" />
+          </div>
+        </div>
       </information>
     </div>
   );
