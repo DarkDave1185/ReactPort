@@ -1,4 +1,5 @@
 mainbody {
+  text-align: center;
   margin: 225px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -9,7 +10,7 @@ mainbody {
   grid-column-gap: 20px;
   grid-row: row height;
   grid-row-gap: 20px;
-  margin-top: -750px;
+  margin-top: -1px;
 }
 
 .box1 {
@@ -107,7 +108,7 @@ mainbody {
 }
 
 .container .cards .face.face2 .content a {
-  margin: 15px 0 0;
+  margin: 5px 0 0;
   display: inline-block;
   text-decoration: none;
   font-weight: 900;

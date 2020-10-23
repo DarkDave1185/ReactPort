@@ -5,7 +5,8 @@ import Canvas from "./components/Canvas/Canvas.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Wrapper from "./components/Wrapper/Wrapper.jsx";
 import About from "./components/About/About.jsx";
-import Contact from "./components/Contact/Contact.jsx";
+/* import Contact from "./components/Contact/Contact.jsx"; */
+import Contact2 from "./components/Contact2/Contact2.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Card from "./components/Card/Card.jsx";
 
@@ -22,7 +23,8 @@ function App() {
                 <About />
               </Route>
               <Route path="/contact">
-                <Contact />
+                {/* <Contact /> */}
+                <Contact2 />
               </Route>
               <Route path="/gallery">
                 <Card />
