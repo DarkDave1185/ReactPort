@@ -14,11 +14,9 @@ function Card() {
           </div>
           <div className="face face2">
             <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </p>
+              <p>Trivia Game with built with group</p>
               <a href="https://thawing-everglades-24119.herokuapp.com/">Link</a>
+              <a href="https://github.com/DarkDave1185/Project2">Git</a>
             </div>
           </div>
         </div>
@@ -31,12 +29,12 @@ function Card() {
           </div>
           <div className="face face2">
             <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </p>
+              <p>Creates password based on user set parameters</p>
               <a href="https://darkdave1185.github.io/randomPasswordGenerator/">
                 Link
+              </a>
+              <a href="https://github.com/DarkDave1185/randomPasswordGenerator">
+                Git
               </a>
             </div>
           </div>
@@ -51,10 +49,11 @@ function Card() {
           <div className="face face2">
             <div className="content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
+                App that shows images from museum alongside random music for
+                inspiration
               </p>
               <a href="https://zachsatt.github.io/Athena/">Link</a>
+              <a href="https://github.com/ZachSatt/Athena">Git</a>
             </div>
           </div>
         </div>
@@ -67,12 +66,12 @@ function Card() {
           </div>
           <div className="face face2">
             <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </p>
+              <p>First attempt at creating a portfolio</p>
               <a href="https://darkdave1185.github.io/portfolioTemplate/index.html">
                 Link
+              </a>
+              <a href="https://github.com/DarkDave1185/portfolioTemplate">
+                Git
               </a>
             </div>
           </div>
@@ -80,34 +79,34 @@ function Card() {
         <div className="cards box5">
           <div className="face face1">
             <div className="content">
-              <img src="#" alt="" />
+              <img src="./images/empTrack" alt="" />
               <h3>Employee Tracker</h3>
             </div>
           </div>
           <div className="face face2">
             <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </p>
+              <p>Tracks employees is business for management</p>
               <a href="https://github.com/DarkDave1185/employeeTracker">Link</a>
+              <a href="https://github.com/DarkDave1185/employeeTracker">Git</a>
             </div>
           </div>
         </div>
         <div className="cards box6">
           <div className="face face1">
             <div className="content">
-              <img src="#" alt="" />
-              <h3>Notes</h3>
+              <img src="./images/p-Icharus.PNG" alt="" />
+              <h3>Project Icharus</h3>
             </div>
           </div>
           <div className="face face2">
             <div className="content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
+                App for registering and getting specific location geo-fenced
               </p>
-              <a href="https://gentle-stream-45327.herokuapp.com/">Link</a>
+              <a href="">Link</a>
+              <a href="https://github.com/JesusFernandoRios/Project-Icarus">
+                Git
+              </a>
             </div>
           </div>
         </div>

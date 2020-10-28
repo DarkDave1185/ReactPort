@@ -36,36 +36,6 @@ function Navbar() {
                 Gallery
               </a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="/projects"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Projects
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="/projects">
-                  Projects
-                </a>
-                <a class="dropdown-item" href="/project1">
-                  Project#1
-                </a>
-                <a class="dropdown-item" href="/project2">
-                  Project#2
-                </a>
-                <a class="dropdown-item" href="/project3">
-                  Project#3
-                </a>
-              </div>
-            </li>
           </ul>
         </div>
       </nav>

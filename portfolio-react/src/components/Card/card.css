@@ -60,7 +60,7 @@ mainbody {
 }
 
 .container .cards:hover .face.face1 {
-  background: #ff0057;
+  background: cornflowerblue;
   transform: translateY(0);
 }
 
@@ -108,7 +108,7 @@ mainbody {
 }
 
 .container .cards .face.face2 .content a {
-  margin: 5px 0 0;
+  margin: 5px 5px 0;
   display: inline-block;
   text-decoration: none;
   font-weight: 900;

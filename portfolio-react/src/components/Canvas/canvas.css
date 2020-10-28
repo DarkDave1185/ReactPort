@@ -20,6 +20,19 @@ body {
   margin-bottom: 200px;
 }
 
+.links {
+  display: flex;
+  margin-top: 0px;
+}
+.links .media a {
+  margin-left: 280px;
+  font-size: 3em;
+}
+.links .media a:hover {
+  margin-left: 280px;
+  font-size: 3.1em;
+}
+
 .tsparticles-canvas-el {
   max-height: 500px;
 }

@@ -69,9 +69,11 @@ information {
   box-sizing: border-box;
   transition: 0.5s;
   opacity: 0;
+  list-style: none;
 }
 .kard-box1 .info li {
   width: 50px;
+  list-style: none;
 }
 .kard-box1:hover .info {
   top: 100px;

@@ -14,20 +14,20 @@ function Contact2() {
                 <FontAwesomeIcon icon="torii-gate" className="icon" />
               </span>
               <span>
-                123 Address Street<br></br>Somewhere, AZ<br></br>12345
+                6227 S. Reed Bunting Dr<br></br>Tucson, AZ<br></br>85757
               </span>
             </li>
             <li>
               <span>
                 <FontAwesomeIcon icon="envelope-open-text" className="icon" />
               </span>
-              <span>myemail@email.com</span>
+              <span>David.GS.Dawkins@gmail.com</span>
             </li>
             <li>
               <span>
                 <FontAwesomeIcon icon="mobile-alt" className="icon" />
               </span>
-              <span>123.456.7890</span>
+              <span>(520) 282-9650</span>
             </li>
           </ul>
           <ul className="media">
@@ -59,32 +59,36 @@ function Contact2() {
         </div>
       </div>
       <div className="contact-form">
-        <h2>Send Message</h2>
-        <div className="form-box">
-          <div className="input-box w50 write1">
-            <input type="text" name="" required />
-            <span>First Name</span>
+        <form action="https://submit-form.com/5zh6uHBM" target="_self">
+          <h2>Send Message</h2>
+          <div className="form-box">
+            <div className="input-box w50 write1">
+              <input type="text" name="name" required />
+              <span>First Name</span>
+            </div>
+            <div className="input-box w50 write2">
+              <input type="text" name="l.name" required />
+              <span>Last Name</span>
+            </div>
+            <div className="input-box w50 write3">
+              <input type="text" name="email" required />
+              <span>Email Address</span>
+            </div>
+            <div className="input-box w50 write4">
+              <input type="text" name="phone" required />
+              <span>Phone Number</span>
+            </div>
+            <div className="input-box w100 write5">
+              <textarea name="message" required></textarea>
+              <span>Your message here...</span>
+            </div>
+            <div className="input-box w100 write6">
+              <button type="submit" value="Send">
+                Submit
+              </button>
+            </div>
           </div>
-          <div className="input-box w50 write2">
-            <input type="text" name="" required />
-            <span>Last Name</span>
-          </div>
-          <div className="input-box w50 write3">
-            <input type="text" name="" required />
-            <span>Email Address</span>
-          </div>
-          <div className="input-box w50 write4">
-            <input type="text" name="" required />
-            <span>Phone Number</span>
-          </div>
-          <div className="input-box w100 write5">
-            <textarea name="" required></textarea>
-            <span>Your message here...</span>
-          </div>
-          <div className="input-box w100 write6">
-            <input type="submit" value="Send" />
-          </div>
-        </div>
+        </form>
       </div>
     </div>
   );

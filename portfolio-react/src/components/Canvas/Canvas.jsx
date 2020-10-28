@@ -1,6 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js";
 import "./canvas.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Canvas() {
   return (
@@ -60,6 +61,21 @@ function Canvas() {
           },
         }}
       />
+      <div className="links">
+        <div className="media">
+          <a href="https://www.linkedin.com/in/david-dawkins-756385177/">
+            <FontAwesomeIcon icon={["fab", "linkedin"]} className="social" />
+          </a>
+        </div>
+        <div className="media">
+          <a href="https://github.com/DarkDave1185">
+            <FontAwesomeIcon
+              icon={["fab", "github-square"]}
+              className="social"
+            />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
