@@ -16,13 +16,12 @@ body {
 .canvas-body {
   background-image: var(--gradient);
   height: 500px;
-  margin-top: 125px;
   margin-bottom: 200px;
 }
 
 .links {
   display: flex;
-  margin-top: 0px;
+  margin-top: 150px;
 }
 .links .media a {
   margin-left: 280px;

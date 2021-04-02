@@ -117,7 +117,7 @@ information {
 }
 .about-box3 {
   grid-area: box3;
-  background: rgba(38, 39, 39, 0.1);
-  color: black;
+  background: rgba(38, 39, 39, 0.5);
+  color: lightblue;
   padding: 15px;
 }

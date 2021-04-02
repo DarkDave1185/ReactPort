@@ -14,7 +14,7 @@ function Card() {
           </div>
           <div className="face face2">
             <div className="content">
-              <p>Trivia Game with built with group</p>
+              <p>Trivia Game built with class group</p>
               <a href="https://thawing-everglades-24119.herokuapp.com/">Link</a>
               <a href="https://github.com/DarkDave1185/Project2">Git</a>
             </div>
@@ -94,17 +94,15 @@ function Card() {
         <div className="cards box6">
           <div className="face face1">
             <div className="content">
-              <img src="./images/p-Icharus.PNG" alt="" />
-              <h3>Project Icharus</h3>
+              <img src="./images/Tracker19.PNG" alt="" />
+              <h3>Tracker 19C</h3>
             </div>
           </div>
           <div className="face face2">
             <div className="content">
-              <p>
-                App for registering and getting specific location geo-fenced
-              </p>
-              <a href="">Link</a>
-              <a href="https://github.com/JesusFernandoRios/Project-Icarus">
+              <p>App tracking COVD19 cases per country</p>
+              <a href="https://ct-app-19.herokuapp.com/">Link</a>
+              <a href="https://github.com/DarkDave1185/CovidTracker19">
                 Git
               </a>
             </div>
